@@ -55,19 +55,6 @@ Symlink the storage folder
 
 ```
 php artisan storage:link
-```
-
-Serve or deploy the project
-
-```
-// To serve locally
-php artisan serve
-
-// To deploy
-ln -s /var/www/salespad-international-backend/public /var/www/html/
-
-// To deploy on a subdirectory
-ln -s /var/www/salespad-international-backend/public /var/www/html/salespad
 
 ```
 
